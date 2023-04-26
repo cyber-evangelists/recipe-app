@@ -1,0 +1,35 @@
+.banner_section {
+  padding: 1.5em;
+  font-family: sans-serif;
+}
+.recipe_add {
+  background-image: url("../../../../public/Images/chicken\ nd\ chips.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 75%;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  gap: 1em;
+  padding: 2.5em;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+.recipe_add span {
+  background-color: #ffffff;
+  color: black;
+  padding: 0.3em 0.5em;
+  border-radius: 5px;
+  width: fit-content;
+  font-size:0.7rem;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  gap:0.5em;
+  font-size: 14px;
+}
