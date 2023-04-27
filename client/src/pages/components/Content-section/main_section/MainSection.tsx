@@ -1,4 +1,4 @@
-import Banner_section from "./Banner_section";
+import Banner_section from "./Advertisement Section/Advertisement_section";
 import styles from "./main_section.module.css";
 export default function MainSection() {
   return (

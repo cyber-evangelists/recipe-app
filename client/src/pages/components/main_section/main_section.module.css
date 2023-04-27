@@ -1,8 +1,0 @@
-.main_section {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-area: 2 / 2 / 3 / 3;
-}

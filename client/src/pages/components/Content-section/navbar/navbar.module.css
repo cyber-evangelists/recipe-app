@@ -1,12 +1,12 @@
 .navbar {
-  grid-area: 2 / 1 / 3 / 2;
+  flex:1;
   display: flex;
   flex-direction: column;
   gap: 2.5em;
-  padding: 2.5em 2em;
+  padding: 1.5em 1em;
   background-color: #f7f8fa;
 }
-.navTitle {
+.navbar .navTitle {
   color: #b2b5bf;
   font-weight: bold;
   font-size: 0.9em;
@@ -25,7 +25,6 @@
   align-items: center;
 
   height: 2.5em;
-  /* padding: 0.5em 0; */
 
   color: #7d8497;
   font-weight: 600;
@@ -34,4 +33,15 @@
 .navbar ul li:hover {
   cursor: pointer;
   color: #2dc76d;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 2px solid red;
+    display: none;
+  }
+  .sidebar li {float: left;}
 }
