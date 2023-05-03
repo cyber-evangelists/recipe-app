@@ -3,3 +3,18 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+/* body {
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+} */
+
+@media (min-width: 2000px) {
+  .container {
+    width: 2000px;
+  
+  }
+}

@@ -46,6 +46,7 @@
   background-color: #f7f8fa;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
+  display: none;
 }
 .drawerOpen ~ .navbar {
   transform: translateX(0);
